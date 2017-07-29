@@ -1,0 +1,25 @@
+{
+  "name": "Steam market candlestick chart",
+  "version": "1.0",
+  "description": "Shows candlestick chart of the history prices of items in steam market.",
+  "permissions" : [
+    "declarativeContent",
+    "tabs",
+    "http://steamcommunity.com/"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action" :
+  {
+    "default_icon" : "icon-19.png",
+    "default_popup": "popup.html",
+    "default_title" : "Open candlestick chart."
+  },
+  "icons" : {
+    "48" : "icon-48.png",
+    "128" : "icon-128.png"
+  },
+  "manifest_version": 2
+}
