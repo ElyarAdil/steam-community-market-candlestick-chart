@@ -1,3 +1,6 @@
-# steam-community-market-candlestick-chart
+# Steam社区市场周K线Chrome插件
 ![screenshot](/screenshot.png?raw=true)
-A chrome extension that shows candlestick chart of history prices of items in steam community market.
+安装方法
+1. 解压 steam_community_market_candlestick_chart.zip 
+2. 用Chrome打开 chrome://extensions 
+3. 将解压好的文件夹拖进去
