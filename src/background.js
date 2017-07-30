@@ -12,7 +12,7 @@ chrome.runtime.onInstalled.addListener(function() {
         // That fires when a page's URL contains a 'g' ...
         conditions: [
           new chrome.declarativeContent.PageStateMatcher({
-            pageUrl: { urlContains: 'http://steamcommunity.com/market/listings/' },
+            pageUrl: { urlContains: 'steamcommunity.com/market/listings/' },
           })
         ],
         // And shows the extension's page action.
