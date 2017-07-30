@@ -1,11 +1,11 @@
 {
-  "name": "Steam market candlestick chart",
+  "name": "Steam community market candlestick chart",
   "version": "1.0",
   "description": "Shows candlestick chart of the history prices of items in steam market.",
   "permissions" : [
     "declarativeContent",
     "tabs",
-    "http://steamcommunity.com/"
+    "*://steamcommunity.com/"
   ],
   "background": {
     "scripts": ["background.js"],
