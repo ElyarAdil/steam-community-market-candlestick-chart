@@ -4,6 +4,7 @@ var canvas;
 chrome.tabs.query({currentWindow: true, active: true}, function(tabs){
     var url = tabs[0].url;
     url = url.replace(/.*listings\//, '');
+    url = url.replace(/\?.*/, '');
     var splited_url = url.split('/');
     var app_id =splited_url[0];
     var hash_name = splited_url[1];
